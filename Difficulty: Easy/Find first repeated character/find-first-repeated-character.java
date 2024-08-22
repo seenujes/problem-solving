@@ -22,7 +22,7 @@ class Solution
     String firstRepChar(String s) 
     { 
         // code here
-        int[] count = new int[256];
+        int[] count = new int[128];
         for(int i=0; i<s.length(); i++){
             count[s.charAt(i)]++;  
             if(count[s.charAt(i)]==2){
