@@ -84,12 +84,11 @@ class Solution
          for (int i = l; i <= r; i++) {
             arr[i] = temp.get(i - l);
         }
-    
     }
     void mergeSort(int arr[], int l, int r)
     {
         //code here
-         if(l>=r)
+        if(l>=r)
         return ;
         int m=(l+r)/2;
         mergeSort( arr,  l,  m);
